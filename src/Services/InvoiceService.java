@@ -29,8 +29,8 @@ public class InvoiceService {
 
     public InvoiceService() throws FileNotFoundException, IOException {
         listInvoiceModels = new ArrayList<InvoiceModel>();
-        fileName = "C:\\Users\\thomas\\Downloads\\GuiDemo_1\\src\\Files\\InvoiceFile.txt";
-        tempFileName = "C:\\Users\\thomas\\Downloads\\GuiDemo_1\\src\\Files\\TempInvoiceFile.txt";
+        fileName = "C:\\Users\\Thomas Samir\\Downloads\\GuiDemo_1\\src\\Files\\InvoiceFile.txt";
+        tempFileName = "C:\\Users\\Thomas Samir\\Downloads\\GuiDemo_1\\src\\Files\\TempInvoiceFile.txt";
         invoiceFile = new File(fileName);
 
         invoiceWriter = new BufferedWriter(new FileWriter(invoiceFile.getPath(), true));
