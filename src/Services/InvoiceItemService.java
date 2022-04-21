@@ -23,7 +23,7 @@ public class InvoiceItemService {
 
     public InvoiceItemService() throws FileNotFoundException, IOException {
         listItemModels = new ArrayList<InvoiceItemModel>();
-        String fileName = "C:\\Users\\thomas\\Downloads\\GuiDemo_1\\src\\Files\\InvoiceItemFile.txt";
+        String fileName = "C:\\Users\\Thomas Samir\\Downloads\\GuiDemo_1\\src\\Files\\InvoiceItemFile.txt";
         invoiceItemFile = new File(fileName);
         
         invoiceItemWriter = new BufferedWriter(new FileWriter(fileName, true));
